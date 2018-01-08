@@ -40,5 +40,8 @@
     <?php endwhile; endif; ?>
     </main>
 
+    <footer>
+        &copy; <?php bloginfo('site'); ?> <?php echo date('Y'); ?>
+    </footer>
 </body>
 </html>
