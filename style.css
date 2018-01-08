@@ -78,10 +78,9 @@ body h1 {
     text-align: center;
 }
 
+/*Meta*/
 .meta {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    text-align: center;
     padding-bottom: 18px;
 }
 
