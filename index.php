@@ -41,7 +41,7 @@
     </main>
 
     <footer>
-        &copy; <?php bloginfo('site'); ?> <?php echo date('Y'); ?>
+        <p>&copy; <?php bloginfo('site'); ?> <?php echo date('Y'); ?></p>
     </footer>
 </body>
 </html>
