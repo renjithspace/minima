@@ -1,0 +1,107 @@
+/*
+Theme Name: Minima
+Theme URI: https://renjithvk.com/blog
+Author: me@renjithvk.com
+Author URI: https://renjithvk.com
+Description: Theme for renjithvk.com's minimal awesome blog
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: minima, renjithvk
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+/*Fonts*/
+@import url('https://fonts.googleapis.com/css?family=Domine');
+
+body {
+    font-family: 'Domine', serif;
+    color: #555;
+    padding: 15px;
+}
+
+body {
+    display: block;
+    margin: auto;
+    max-width: 720px;
+}
+
+header {
+    margin: 108px 0;
+    text-align: center;
+}
+
+header a {
+    font-size: 54px;
+    margin: 0;
+    font-weight: bold;
+}
+
+header p {
+    font-size: 24px;
+    margin: 0;
+}
+
+footer {
+    margin: 108px 0;
+}
+
+footer ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+footer ul li {
+    margin: 36px 0;
+    font-size: 24px;
+}
+
+footer ul li a {
+    color: #555;
+    font-weight: 700;
+}
+
+footer li:nth-child(2) {
+    display: none;
+}
+
+body h1 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.meta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 18px;
+}
+
+.meta .time {
+    font-style: italic;
+}
+
+.content::first-letter {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+a {
+    color: #555 !important;
+    text-decoration: none !important;
+}
+
+h1 {
+    font-size: 45px;
+    line-height: 63px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 39px;
+    margin: 45px 0;
+}
