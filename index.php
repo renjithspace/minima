@@ -30,6 +30,7 @@
                     <?php wp_trim_words( the_content(), 55, "" )?>
                 </div>
             </section>
+
             <nav>
                 <ul>
                     <li><?php previous_post_link( '%link', '%title', true ); ?></li>
@@ -43,5 +44,6 @@
     <footer>
         <p>&copy; <?php bloginfo('site'); ?> <?php echo date('Y'); ?></p>
     </footer>
+    
 </body>
 </html>
