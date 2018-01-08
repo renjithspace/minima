@@ -19,10 +19,8 @@ Use it to make something cool, have fun, and share what you've learned with othe
 body {
     font-family: 'Zilla Slab', serif;
     color: #555;
-    padding: 15px;
-}
-
-body {
+    padding: 20px;
+    font-size: 19px;
     display: block;
     margin: auto;
     max-width: 720px;
@@ -61,7 +59,6 @@ footer ul li {
 }
 
 footer ul li a {
-    color: #555;
     font-weight: 700;
 }
 
@@ -101,11 +98,10 @@ h1 {
 }
 
 h2 {
-    font-size: 24px;
+    font-size: 28px;
 }
 
 p {
-    font-size: 18px;
     line-height: 42px;
     margin-bottom: 48px;
 }
