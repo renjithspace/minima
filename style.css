@@ -46,6 +46,13 @@ p {
     margin-bottom: 48px;
 }
 
+/*Media*/
+img {
+    display: block;
+    margin: auto;
+    border-radius: 4px;
+}
+
 /*Header*/
 header {
     margin: 108px 0;
