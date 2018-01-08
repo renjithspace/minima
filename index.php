@@ -30,12 +30,12 @@
                     <?php wp_trim_words( the_content(), 55, "" )?>
                 </div>
             </section>
-            <footer>
+            <nav>
                 <ul>
                     <li><?php previous_post_link( '%link', '%title', true ); ?></li>
                     <li><?php next_post_link( '%link', '%title', true ); ?></li>
                 </ul>
-            </footer>
+            </nav>
         <?php $count++; ?>
     <?php endwhile; endif; ?>
     </main>
