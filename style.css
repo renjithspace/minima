@@ -26,6 +26,27 @@ body {
     max-width: 720px;
 }
 
+/*Typo*/
+a {
+    color: #555 !important;
+    text-decoration: none !important;
+}
+
+h1 {
+    font-size: 45px;
+    line-height: 63px;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+p {
+    line-height: 42px;
+    margin-bottom: 48px;
+}
+
+/*Header*/
 header {
     margin: 108px 0;
     text-align: center;
@@ -40,6 +61,22 @@ header a {
 header p {
     font-size: 24px;
     margin: 0;
+}
+
+/*Meta*/
+.meta {
+    text-align: center;
+    padding-bottom: 18px;
+}
+
+.meta .time {
+    font-style: italic;
+}
+
+/*Content*/
+.content::first-letter {
+    font-size: 36px;
+    font-weight: bold;
 }
 
 /*Navigation*/
@@ -76,38 +113,4 @@ footer {
 body h1 {
     margin-bottom: 20px;
     text-align: center;
-}
-
-/*Meta*/
-.meta {
-    text-align: center;
-    padding-bottom: 18px;
-}
-
-.meta .time {
-    font-style: italic;
-}
-
-.content::first-letter {
-    font-size: 36px;
-    font-weight: bold;
-}
-
-a {
-    color: #555 !important;
-    text-decoration: none !important;
-}
-
-h1 {
-    font-size: 45px;
-    line-height: 63px;
-}
-
-h2 {
-    font-size: 28px;
-}
-
-p {
-    line-height: 42px;
-    margin-bottom: 48px;
 }
