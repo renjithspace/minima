@@ -1,0 +1,24 @@
+
+/*Small devices*/
+@media only screen and (max-width: 375px) {
+
+    /*Meta*/
+    .meta {
+        flex-direction: column;
+    }
+
+    .meta span {
+        border: none;
+        line-height: 28px;
+    }
+
+    .meta::after {
+        height: 1px;
+        background-color: #ddd;
+        display: block;
+        width: 150px;
+        content: '';
+        margin-top: 25px;
+    }
+    
+}
