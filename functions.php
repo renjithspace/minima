@@ -13,5 +13,5 @@ function the_readtime($postID) {
     }
     $totalreadingtime = $readingtime . $timer;
 
-    return $totalreadingtime;
+    echo $totalreadingtime;
 }

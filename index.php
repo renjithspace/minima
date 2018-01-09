@@ -26,7 +26,7 @@
                 <div class="meta">
                     <span><?php the_time('jS F Y'); ?></span>
                     <span><?php the_category(); ?></span>
-                    <span><?php echo the_readtime(get_the_ID()); ?></span>
+                    <span><?php the_readtime(get_the_ID()); ?></span>
                 </div>
                 <div class="content">
                     <?php wp_trim_words( the_content(), 55, "" )?>
