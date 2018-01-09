@@ -25,7 +25,7 @@
                 <h1><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h1>
                 <div class="meta">
                     <span><?php the_time('jS F Y'); ?></span>
-                    <span><?php the_category(); ?></span>
+                    <span><?php the_category_name(get_the_ID()); ?></span>
                     <span><?php the_readtime(get_the_ID()); ?></span>
                 </div>
                 <div class="content">
