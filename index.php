@@ -24,7 +24,8 @@
             <section>
                 <h1><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h1>
                 <div class="meta">
-                    <span class="time"><?php the_time('jS F Y'); ?></span>
+                    <span><?php the_time('jS F Y'); ?></span>
+                    <span><?php the_category(); ?></span>
                 </div>
                 <div class="content">
                     <?php wp_trim_words( the_content(), 55, "" )?>
@@ -44,6 +45,6 @@
     <footer>
         <p>&copy; <?php bloginfo('site'); ?> <?php echo date('Y'); ?></p>
     </footer>
-    
+
 </body>
 </html>
