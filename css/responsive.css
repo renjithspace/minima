@@ -1,6 +1,6 @@
 
-/*Small devices*/
-@media only screen and (max-width: 375px) {
+/*Mobile devices*/
+@media only screen and (max-width: 425px) {
 
     /*Meta*/
     .meta {
@@ -20,5 +20,5 @@
         content: '';
         margin-top: 25px;
     }
-    
+
 }
