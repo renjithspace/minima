@@ -74,11 +74,20 @@ header p {
 /*Meta*/
 .meta {
     text-align: center;
-    padding-bottom: 18px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.meta .time {
-    font-style: italic;
+.meta span {
+    padding: 0 20px;
+    border-right: 2px solid #ddd;
+    font-size: 17px;
+}
+
+.meta span:last-child {
+    border: none;
 }
 
 /*Content*/
