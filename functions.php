@@ -15,3 +15,9 @@ function the_readtime($postID) {
 
     echo $totalreadingtime;
 }
+
+// First category name
+function the_category_name($postID) {
+    $category = get_the_category($postID);
+    echo $category[0]->cat_name;
+}
