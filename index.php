@@ -10,13 +10,6 @@
     <?php static $count = 0; if($count == 1) {break;}?>
         <section>
             <h1><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h1>
-            <div class="meta">
-                <span>
-                    <time datetime="<?php the_time('Y-m-d H:i:s'); ?>"><?php the_time('jS F Y'); ?></time>
-                </span>
-                <span><?php the_category_name(get_the_ID()); ?></span>
-                <span><?php the_readtime(get_the_ID()); ?></span>
-            </div>
             <div class="content">
                 <p><?php the_description(get_the_ID()); ?></p>
             </div>
