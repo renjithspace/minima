@@ -113,3 +113,14 @@ body h1 {
     margin-bottom: 20px;
     text-align: center;
 }
+
+/*Home*/
+.home h1 {
+    margin-bottom: 10px;
+    font-size: 37px;
+}
+
+.home .content p {
+    margin-top: 0;
+    text-align: center
+}
