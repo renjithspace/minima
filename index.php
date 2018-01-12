@@ -18,7 +18,7 @@
                 <span><?php the_readtime(get_the_ID()); ?></span>
             </div>
             <div class="content">
-                <?php wp_trim_words( the_content(), 55, "" )?>
+                <p><?php the_description(get_the_ID()); ?></p>
             </div>
         </section>
 
