@@ -3,6 +3,11 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <?php if (is_home()): ?>
+        <meta name="description" content="<?php bloginfo('description'); ?>">
+    <?php else: ?>
+        <meta name="description" content="<?php the_description(get_the_ID()); ?>">
+    <?php endif; ?>
 
     <?php if (is_home()): ?>
         <title><?php bloginfo('name'); ?> - <?php bloginfo('description'); ?></title>
