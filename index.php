@@ -10,7 +10,7 @@
     <section>
         <h1><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h1>
         <div class="content">
-            <p><?php the_description(get_the_ID()); ?></p>
+            <p><?php the_short_content(get_the_ID()); ?></p>
         </div>
     </section>
 <?php endwhile; endif; ?>
