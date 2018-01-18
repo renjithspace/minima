@@ -1,8 +1,12 @@
+
+/*Google fonts*/
+@import url('https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i');
+
 body {
-    font-family: 'Zilla Slab', serif;
+    font-family: 'Lora', serif;
     color: #555;
     padding: 20px;
-    font-size: 19px;
+    font-size: 18px;
     display: block;
     margin: auto;
     max-width: 720px;
@@ -15,16 +19,16 @@ a {
 }
 
 h1 {
-    font-size: 45px;
+    font-size: 42px;
     line-height: 63px;
 }
 
 h2 {
-    font-size: 28px;
+    font-size: 26px;
 }
 
 p {
-    line-height: 42px;
+    line-height: 40px;
     margin-bottom: 48px;
 }
 
@@ -51,6 +55,7 @@ header a {
 
 header p {
     margin: 0;
+    font-style: italic;
 }
 
 /*Meta*/
@@ -60,6 +65,7 @@ header p {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-style: italic;
 }
 
 .meta span {
