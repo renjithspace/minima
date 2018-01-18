@@ -28,3 +28,10 @@ function the_description($postID) {
     $description = substr( strip_tags($content), 0, 320);
     echo $description;
 }
+
+// Short content
+function the_short_content($postID) {
+    $content = get_post_field( 'post_content', $postID );
+    $shortcontent = substr( strip_tags($content), 0, 220) . '...';
+    echo $shortcontent;
+}
