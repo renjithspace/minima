@@ -141,11 +141,17 @@ body h1 {
 }
 
 blockquote {
-    background: #f1f1f1;
-    border-left: 5px solid #444;
-    padding: 0 15px;
-    width: 50%;
+    width: 60%;
     display: block;
     margin: 0 auto;
     font-style: italic;
+}
+
+blockquote p {
+    line-height: 30px;
+    background: #f1f1f1;
+    padding: 10px 15px;
+    border-left: 5px solid #444;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
 }
