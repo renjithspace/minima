@@ -21,4 +21,8 @@
         margin-top: 25px;
     }
 
+    blockquote {
+        width: 100%;
+    }
+
 }
