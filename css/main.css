@@ -139,3 +139,13 @@ body h1 {
     font-size: 16px;
     margin-bottom: 29px;
 }
+
+blockquote {
+    background: #f1f1f1;
+    border-left: 5px solid #444;
+    padding: 0 15px;
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+    font-style: italic;
+}
